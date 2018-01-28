@@ -1,0 +1,46 @@
+
+.searchResultBox{
+  margin: 10% 10%;
+  animation-name: searchBoxMotion;
+  animation-duration: 1s;
+  width: 80%;
+};
+.searchResultBox:focus{
+  margin: 0%;
+  width: 20;
+}
+.ant-popover-content{
+  margin: 0% 40% 0% 10%;
+}
+.movieCard{
+  display: inline-block;
+  margin: 0.6% 0.3% 0.6% 0.3%;
+}
+.ant-card-meta-title{
+  text-align: center;
+  white-space: pre-line;
+  padding: 2%;
+  overflow: visible;
+}
+.ant-card-meta-description{
+  text-align: center;
+}
+.ant-card-body{
+  padding: 5% 0%;
+  height: 40%;
+
+}
+.movieCardMeta{
+  white-space: pre;
+}
+.movieList{
+  text-align: center;
+}
+@keyframes searchBoxMotion {
+  from{
+    margin: 25% 10%;
+  }
+  to{
+    margin: 10% 10%;
+  }
+}

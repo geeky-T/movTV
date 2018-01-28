@@ -1,0 +1,9 @@
+
+.searchBox{
+  margin: 25% 10%;
+  width: 80%;
+};
+.searchBox:focus{
+  margin: 0%;
+  width: 20;
+}
